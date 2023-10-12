@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Web Site</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
+    
   </head>
   <body>
         <video autoplay loop muted play-inline class="back-video">
@@ -52,11 +53,10 @@
             class="btn btn-color-2"
             onclick="window.open('./assets/CURRICULUM VITAE.pdf')"
           >
-            CURRICULUM VITAE
+            RESUME / BIO
           </button>
-          -
           <button class="btn btn-color-1" onclick="location.href='/#contact'">
-            CCONTACT INFO
+            CONTACT INFO
           </button>
         </div>
         <div id="socials-container">
@@ -67,17 +67,115 @@
             onclick="location.href='https://github.com/016Dan/'"
           />
           <img
-            src="./assets/gmailpng.parspng.com-7-300x300.png"
-            alt="My gmail Profile"
-            class="icon"
-            onclick="location.href='https://edanraymundo@gmail.com/'"
-          />
-          <img
             src="./assets/46-facebook-512.webp"
             alt="My facebook Profile"
             class="icon"
             onclick="location.href='https://facebook.com/edanfher.raymundo/'"
-
+            />
+          <img
+            src="./assets/gmailpng.parspng.com-7-300x300.png"
+            alt="My gmail Profile"
+            class="icon"
+            onclick="location.href='https://gmail.com/'"
+          />     
+      </div>
+    </section>
+    <section id="About">
+       <p class="section_text_p1">Get to know More</p>
+       <h1 class="title">About Me</h1>
+       <div class="section-container">
+        <div class="section_pic-container">
+          <img src = "./assets/-lece9g (1).jpg"
+          alt="Profile Picture"
+          class="about-pic"/>
+          </div>
+          <div class="about-details-container">
+            <div class ="about-container">
+              <div class = "details-container">
+                <img src = "./assets/experience.png"
+              alt = "experience icon"
+              class = "icon"/>
+              <h3>Experience</h3>
+              <p>3 years <br/> System Analyst</p>
+              </div>
+              <div class = "details-container">
+                <img src = "./assets/education.png"
+              alt = "education icon"
+              class = "icon"/>
+              <h3>Education</h3>
+              <p>B.S. in Information Technology <br />
+                Master in Information Technology</p>
+              </div>
+            </div>
+            <div class = "text-container">
+              <p>
+                qwertyuioop
+                asdfghjkl
+                zxcvbnm
+              </p>
+            </div>
+        </div>
+       </div>
+       <img src = "./assets/arrow.png"
+       alt = "Arrow icon"
+       class ="icon arrow"
+       onclick="location.href = './#experience'"/>
+    </section>
+    <section id = "experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class = "experience-details-container">
+        <div class="about-container">
+          <div class="details-container">
+            <h2 class ="experience-sub-title">System Analyst</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png"
+                alt="Experience icon"
+                class = "icon"/>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png"
+                alt="Experience icon"
+                class = "icon"/>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png"
+                alt="Experience icon"
+                class = "icon"/>
+                <div>
+                  <h3>C Programming</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png"
+                alt="Experience icon"
+                class = "icon"/>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png"
+                alt="Experience icon"
+                class = "icon"/>
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
       </div>
     </section>
